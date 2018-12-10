@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window name = "liscenetest" size = "800, 640"  caption = "0,0,0,80" roundcorner = "4,4">
+	<Font name = "微软雅黑" size = "20" bold = "false" italic = "false" />
+	<Font name = "微软雅黑" size = "33" bold = "false" italic = "false" />
+	<Font name = "微软雅黑" size = "14" bold = "false" italic = "false" />
+	<Default name="VScrollBar" value="button1normalimage=&quot;file=&apos;scrollbar.bmp&apos; source=&apos;0,90,16,106&apos; mask=&apos;#FFFF00FF&apos;&quot; button1hotimage=&quot;file=&apos;scrollbar.bmp&apos; source=&apos;18,90,34,106&apos; mask=&apos;#FFFF00FF&apos;&quot; button1pushedimage=&quot;file=&apos;scrollbar.bmp&apos; source=&apos;36,90,52,106&apos; mask=&apos;#FFFF00FF&apos;&quot; button1disabledimage=&quot;file=&apos;scrollbar.bmp&apos; source=&apos;54,90,70,106&apos; mask=&apos;#FFFF00FF&apos;&quot; button2normalimage=&quot;file=&apos;scrollbar.bmp&apos; source=&apos;0,108,16,124&apos; mask=&apos;#FFFF00FF&apos;&quot; button2hotimage=&quot;file=&apos;scrollbar.bmp&apos; source=&apos;18,108,34,124&apos; mask=&apos;#FFFF00FF&apos;&quot; button2pushedimage=&quot;file=&apos;scrollbar.bmp&apos; source=&apos;36,108,52,124&apos; mask=&apos;#FFFF00FF&apos;&quot; button2disabledimage=&quot;file=&apos;scrollbar.bmp&apos; source=&apos;54,108,70,124&apos; mask=&apos;#FFFF00FF&apos;&quot; thumbnormalimage=&quot;file=&apos;scrollbar.bmp&apos; source=&apos;0,126,16,142&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; thumbhotimage=&quot;file=&apos;scrollbar.bmp&apos; source=&apos;18,126,34,142&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; thumbpushedimage=&quot;file=&apos;scrollbar.bmp&apos; source=&apos;36,126,52,142&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; thumbdisabledimage=&quot;file=&apos;scrollbar.bmp&apos; source=&apos;54,126,70,142&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; railnormalimage=&quot;file=&apos;scrollbar.bmp&apos; source=&apos;0,144,16,160&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; railhotimage=&quot;file=&apos;scrollbar.bmp&apos; source=&apos;18,144,34,160&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; railpushedimage=&quot;file=&apos;scrollbar.bmp&apos; source=&apos;36,144,52,160&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; raildisabledimage=&quot;file=&apos;scrollbar.bmp&apos; source=&apos;54,144,70,160&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; bknormalimage=&quot;file=&apos;scrollbar.bmp&apos; source=&apos;0,162,16,178&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; bkhotimage=&quot;file=&apos;scrollbar.bmp&apos; source=&apos;18,162,34,178&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; bkpushedimage=&quot;file=&apos;scrollbar.bmp&apos; source=&apos;36,162,52,178&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; bkdisabledimage=&quot;file=&apos;scrollbar.bmp&apos; source=&apos;54,162,70,178&apos; corner=&apos;2,2,2,2&apos; mask=&apos;#FFFF00FF&apos;&quot; " />
+    <!-- <Default name="VScrollBar" button1normalimage="up_nor.png" button1hotimage="up_hot.png"  button1pushedimage="up_hot.png"  button2normalimage="down_nor.png" button2hotimage="down_hot.png" button2pushedimage="down_hot.png" thumbnormalimage="center_nor.png" thumbhotimage="center_hot.png" thumbpushedimage="center_hot.png"/> -->
+	<VerticalLayout bkcolor = "0xFFFFFFFF">
+		<HorizontalLayout height = "80" bkimage = "top_back.png">
+			<Control width = "20" />
+			<HorizontalLayout>
+				<Control width = "40" height = "40" padding = "0,20,0,20" bkimage = "logo.png" />
+				<Label name = "yilian"  textpadding = "15,0,0,0" textcolor = "#FFFFFFFF" font = "0" fontsize = "20"  text = "亿联安装工具" />
+			</HorizontalLayout>
+			<HorizontalLayout name = "globalbutton" bordersize = "0" width = "92" height = "26">
+				<Button name = "aboutbtn" width = "29" normalimage = "carbit_icon_about.png" hotimage = "carbit_icon_about_press.png" pushedimage = "carbit_icon_about_press.png"/>
+				<Control width = "2" />
+				<Button name = "minbtn" width = "29" normalimage = "carbit_icon_minimality.png" hotimage = "carbit_icon_minimality_press.png" pushedimage = "carbit_icon_minimality_press.png"/>
+				<Control width = "2" />
+				<Button name = "closebtn" width = "29" normalimage = "carbit_icon_close.png" hotimage = "carbit_icon_close_press.png" pushedimage = "carbit_icon_close_press.png"/>
+			</HorizontalLayout>
+		</HorizontalLayout>
+		<VerticalLayout bkimage = "bottom_back.png">
+			<Control height = "10"/>
+			<Label height = "33" align = "center" font = "1"  text = "用户协议" textcolor = "#FF1a9cdf" />
+			<Control height = "10"/>
+			<HorizontalLayout height = "360">
+				<Control />
+				<HorizontalLayout width = "546" inset = "5,5,5,5" bordersize = "1" bordercolor = "#FF1A9DDF">
+					<RichEdit name = "userAgreement" font = "2" text = "" vscrollbar = "true"  readonly = "true"/>
+				</HorizontalLayout>
+				<Control />
+			</HorizontalLayout>
+			<Control height = "20" />
+			<HorizontalLayout height = "28">
+				<Control width = "300"/>
+				<Option name = "optNextTips"  width = "28" height = "28" normalimage = "checklist_off.png" selectedimage = "checklist_on.png" selected = "false" />
+				<Control width = "5"/>
+				<Label textcolor = "#FF1a9cdf" font = "0"  height = "28" align = "left"  text = "下次不再提醒"/>
+				<Control />
+			</HorizontalLayout>
+			<Control height = "20" />
+			<HorizontalLayout height = "50" >
+				<Control />
+				<Button name = "OkBtn" text = "接受" font = "0"  textcolor = "#FFFFFFFF" width = "200" normalimage = "carbit_about_button.png" hotimage = "carbit_about_button_press.png" pushedimage = "carbit_about_button_press.png" />
+				<Control width = "100" />
+				<Button name = "NoBtn" text = "拒绝" font = "0"  textcolor = "#FFFFFFFF" width = "200" normalimage = "carbit_about_button.png" hotimage = "carbit_about_button_press.png" pushedimage = "carbit_about_button_press.png" />
+				<Control />
+			</HorizontalLayout>
+			<Control />
+		</VerticalLayout>
+	</VerticalLayout>
+</Window>
